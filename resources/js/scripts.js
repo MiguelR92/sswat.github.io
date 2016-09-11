@@ -91,7 +91,7 @@ $(document).ready(function(){
 	  lng: -99.129718,
 	  title: 'SSWAT',
 	  infoWindow: {
-		content: '<p>OFICINA CENTRL DE SSWAT</p>'
+		content: '<p>OFICINA CENTRAL DE SSWAT</p>'
 	  }
 	});
 });
