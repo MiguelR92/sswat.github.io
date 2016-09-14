@@ -342,6 +342,11 @@ header {
 
 }
 
+.map-photo{
+	width: auto;
+	height: auto;
+}
+
 .meal-photo {
 	width: 100%; /* redundant line, only bottom code needed...try removing after add transitions */
 	overflow: hidden; /* Keeps images contained */
