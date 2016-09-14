@@ -50,20 +50,7 @@
 	.icon-small {
 		width: 17px;
 		margin-right: 5px;
-	}
-	.city-features {
-		font-size: 0.85em;
-	}
-	.plan-box {
-		width: 100%;
-		margin-left: 0%;
-	}
-	.plan-price {
-		font-size: 2.5em;
-	}
-	.section-form {
-		width: 90%;
-	}
+	} 
 	.social-icons,
 	.footer-nav {
 		float: none;

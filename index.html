@@ -4,13 +4,14 @@
 
 <head>
 	<meta charset="UTF-8"> 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta name="description" content="Omnifood is a fictitious premium food delivery service with the mission to bring affordable and healthy meals to as many people as possible.">
 	<link rel="stylesheet" type="text/css" href="vendors/css/node_modules/normalize.css">
 	<link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
 	<link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
 	<link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
 	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Audiowide|Shadows+Into+Light+Two" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="resources/css/styles.css">
 	<link rel="stylesheet" type="text/css" href="resources/css/queries.css">
 	<link rel="icon" type="image/png" href="resources/img/fav.png">
@@ -26,7 +27,7 @@
 				<img src="resources/img/logo-white.png" alt="Omnifood Logo" class="logo">
 				<img src="resources/img/logo.png" alt="Omnifood Logo" class="logo-black">
 				<ul class="main-nav js--main-nav">  
-					<li><a href="#features">Entrega de comida a domicilio</a></li>
+					<li><a href="#features">Entrega a domicilio</a></li>
 					<li><a href="#works">Cómo funciona</a></li>
 					<li><a href="#contact">Contacto</a></li>
 				</ul>
@@ -34,6 +35,8 @@
 			</div>
 		</nav>
 		<div class="hero-text">
+		<h1>SSWAT</h1>
+		<br>
 			<h1>SPECIAL 
 			<br>SERVICE
 			<br>WHATS
@@ -65,10 +68,9 @@
 		   <h3>03 / FACIL</h3>	
            <p>Simplemente debe hacer su pedido por whatsapp, nosotros nos encargamos del resto</p>
 		 </div>
-		 <DIV class="col span-3-of-3 box">
-		 	<img src="resources/img/map.png">
-
-		 </DIV>
+		 <div class="col span-3-of-3 box">
+		 	<img src="resources/img/map1.png" id="map">
+		 </div>
 
  		</div>
 
@@ -146,7 +148,7 @@
 	<section class="steps" id="works">
 		<div class="row">
 			<h2>Cómo funciona</h2>
-			<h2>Solo debes mandar por whats la siguiente información:</h2>
+			<h2>Solo debes mandar nos por whats la siguiente información:</h2>
 		</div>
 		<div class="row"> <!-- col for iphone, col for steps, all in same row -->
 			<div class="col span-1-of-2 steps-box">
@@ -155,7 +157,8 @@
 			<div class="col span-1-of-2 steps-box">
 				<div class="works-steps">
 					<div>1</div>
-					<p>TU DIRECCION</p>
+					<p>LA DIRECCIÓN DE ENTREGA DEL PEDIDO</p>
+					<br>
 				</div>
 				<div class="works-steps">
 					<div>2</div>
@@ -175,35 +178,45 @@
 		</div>
 	</section>
 	
+	<!-- contact section -->
 
+	<div id="contact">
 
-	<section class="features js--features" id="contact">
 		<div class="row">
 			<h2>Información de Contacto</h2>
 		</div>
 
-		<div class="row js--wp-1">
-			<div class="col span-1-0f-3 box">
+		<div class="row">
+			<div>
 			    <h3>TELEFONO</h3> 
 				<p>5559344096</p>
 			</div>
-			<div class="col span-1-0f-3 box">
+			<br>
+			<div>
 			    <h3>E-MAIL</h3> 
 				<p>contacto@sswat.com.mx</p>
 			</div>
-			<div class="col span-1-0f-3 box">
+			<br>
+			<h3>FACEBOOK</h3>
+			<br>
+
+			<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fsswat724%2F&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="340" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+
+			<div>
+			<br>
 			    <h3>DIRECCIÓN</h3> 
 				<p>Calle Clavijero 25, Tránsito, 06840 Ciudad de México, D.F.</p>
 			</div>
-		</div>
+			<br>
 
+		</div>
+		<br>
 	 	<div class="map-box">
 
 			<div class="map"></div>
-		
 		</div>
-
-	</section>
+	</div>
 
 	<!-- Footer section -->
 
@@ -214,6 +227,7 @@
 					<li><a href="#"><i class="ion-social-twitter" target="_blank"></i></a></li>
 				</ul>
 		</div>
+
 		<div class="row">
 			<p>2016 by SSWAT.</p>
 		</div>
