@@ -345,6 +345,8 @@ header {
 .map-photo{
 	width: auto;
 	height: auto;
+	position: relative;
+	z-index: 0;
 }
 
 .meal-photo {
@@ -425,35 +427,6 @@ header {
 
 /* Form section
    ===========================================*/
-.section-form {
-	width: 90%;
-	margin: 0 auto;
-}
-
-input[placeholder],
-input[type="submit"], /* had to repeat this style for some reason, works now */
-textarea[placeholder],
-select
-{
-	font-family: inherit;
-	font-size: 0.9em;
-	font-weight: 300;
-}
-
-input[type="text"],
-input[type="email"],
-select,
-textarea {
-	width: 100%;
-	padding: 7px;
-	border-radius: 3px;
-	border: 1px solid #ccc;
-}
-
-textarea { height: 100px; }
-
-input[type="checkbox"] { margin: 10px 5px 10px 0; }
-
 .map-box {
 	width: 100%;
 	height: 530px;
