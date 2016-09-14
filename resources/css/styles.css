@@ -345,8 +345,6 @@ header {
 .map-photo{
 	width: auto;
 	height: auto;
-	-webkit-transform: scale(1.16);
-	        transform: scale(1.16);
 }
 
 .meal-photo {
