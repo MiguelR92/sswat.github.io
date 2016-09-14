@@ -48,13 +48,8 @@ section {
 	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/back.jpg);
 }
 
-#contact{
-	padding: 3em;
-	background-color: #000;
-}
-
 #map{
-	width: 629px;
+	width: auto;
 }
 
 h1,
