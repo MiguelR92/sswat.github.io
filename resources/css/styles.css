@@ -83,6 +83,8 @@ h2 {
 
 #numero{
    color: #ff0000;
+   border-bottom: 6px solid #ffff01;
+   background-color: rgba(38,38,38,0.5);
 }
 
 /* Line divide (yellow)
