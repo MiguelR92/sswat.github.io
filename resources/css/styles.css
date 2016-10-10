@@ -81,6 +81,10 @@ h2 {
 	letter-spacing: 1px; 
 }
 
+#numero{
+   color: #ff0000;
+}
+
 /* Line divide (yellow)
    ==================================*/
 h2:after {
