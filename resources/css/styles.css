@@ -543,3 +543,26 @@ footer p {
 	-webkit-animation-duration: 1s;
 	        animation-duration: 1s;
 }
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 75%;
+	position: relative;
+}
+
+th, td {
+    text-align: center;
+    padding: 12px;
+}
+
+
+th {
+    background: rgba(255,255,1,0.9);
+    color: black;
+}
+
+td {
+	background: rgba(38,38,38,0.5);
+	color: #ffff01;
+}
